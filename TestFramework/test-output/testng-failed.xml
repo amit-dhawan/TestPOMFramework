@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ERM Sanity Suite]">
+  <test name="Sanity">
+    <classes>
+      <class name="learn.amit.TestFramework.SanityTask"/>
+    </classes>
+  </test> <!-- Sanity -->
+</suite> <!-- Failed suite [ERM Sanity Suite] -->

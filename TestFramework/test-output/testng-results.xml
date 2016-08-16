@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ERM Sanity Suite" duration-ms="21308" started-at="2016-08-16T09:03:55Z" finished-at="2016-08-16T09:04:16Z">
+    <groups>
+    </groups>
+    <test name="Sanity" duration-ms="21308" started-at="2016-08-16T09:03:55Z" finished-at="2016-08-16T09:04:16Z">
+      <class name="learn.amit.TestFramework.SanityTask">
+        <test-method status="PASS" signature="before()[pri:0, instance:learn.amit.TestFramework.SanityTask@1b604f19]" name="before" is-config="true" duration-ms="10491" started-at="2016-08-16T14:33:55Z" finished-at="2016-08-16T14:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="userLoginWithValidCredentials()[pri:0, instance:learn.amit.TestFramework.SanityTask@1b604f19]" name="userLoginWithValidCredentials" duration-ms="4702" started-at="2016-08-16T14:34:05Z" finished-at="2016-08-16T14:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginWithValidCredentials -->
+        <test-method status="PASS" signature="clickOnMenuItemSkills()[pri:1, instance:learn.amit.TestFramework.SanityTask@1b604f19]" name="clickOnMenuItemSkills" duration-ms="1090" started-at="2016-08-16T14:34:10Z" finished-at="2016-08-16T14:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMenuItemSkills -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:learn.amit.TestFramework.SanityTask@1b604f19]" name="closeBrowser" is-config="true" duration-ms="5011" started-at="2016-08-16T14:34:11Z" finished-at="2016-08-16T14:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- learn.amit.TestFramework.SanityTask -->
+    </test> <!-- Sanity -->
+  </suite> <!-- ERM Sanity Suite -->
+</testng-results>
