@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-ERM_Sanity_Suite">
-                    <span>C:\Users\adhaw4\workspace\TestFramework\testng.xml</span>
+                    <span>C:\Users\adhaw4\git\TestPOMFramework\TestFramework\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-ERM_Sanity_Suite" class="show-methods passed suite-ERM_Sanity_Suite"> (show)</a> <!-- show-methods passed suite-ERM_Sanity_Suite -->
                     </span>
                     <div class="method-list-content passed suite-ERM_Sanity_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ERM_Sanity_Suite" title="learn.amit.TestFramework.SanityTask" hash-for-method="clickOnMenuItemSkills">clickOnMenuItemSkills</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-ERM_Sanity_Suite" title="learn.amit.TestFramework.SanityTask" hash-for-method="userLoginWithValidCredentials">userLoginWithValidCredentials</a> <!-- method navigator-link -->
@@ -125,6 +130,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="clickOnMenuItemSkills">
+                  </a> <!-- clickOnMenuItemSkills -->
+                  <span class="method-name">clickOnMenuItemSkills</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="userLoginWithValidCredentials">
                   </a> <!-- userLoginWithValidCredentials -->
                   <span class="method-name">userLoginWithValidCredentials</span>
@@ -135,7 +147,7 @@
         </div> <!-- panel ERM_Sanity_Suite -->
         <div panel-name="test-xml-ERM_Sanity_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\adhaw4\workspace\TestFramework\testng.xml</span>
+            <span class="header-content">C:\Users\adhaw4\git\TestPOMFramework\TestFramework\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,11 +196,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'userLoginWithValidCredentials')
 data.setCell(0, 2, 'learn.amit.TestFramework.SanityTask')
-data.setCell(0, 3, 5375);
+data.setCell(0, 3, 4707);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickOnMenuItemSkills')
+data.setCell(1, 2, 'learn.amit.TestFramework.SanityTask')
+data.setCell(1, 3, 960);
 window.suiteTableData['ERM_Sanity_Suite']= { tableData: data, tableDiv: 'times-div-ERM_Sanity_Suite'}
 return data;
 }
@@ -226,11 +242,15 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">userLoginWithValidCredentials</span>
-                <span class="method-start">10165 ms</span>
+                <span class="method-start">11807 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnMenuItemSkills</span>
+                <span class="method-start">16515 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">15541 ms</span>
+                <span class="method-start">17475 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
