@@ -12,7 +12,7 @@ public class SanityTask extends BaseSetup {
 	public LoginPageObjects loginpage ;
 	public AdminUserManagementPageObjects adminusermanagementpage;
 	
-	// User credentials of admin
+	// User credentials of admin Login Page
 	String userNameValue = "Admin";
 	String passwordValue = "admin";
 	
